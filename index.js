@@ -1,6 +1,8 @@
 import { strictEquals } from "./strictEquals.js";
+import { strictEqualsRestriccionNan } from "./strictEqualsRestriccionNan.js";
+
 console.log(strictEquals(1, 1));
-console.log(strictEquals(NaN, NaN));
+console.log(strictEqualsRestriccionNan(NaN, NaN));
 console.log(strictEquals(0, -0));
 console.log(strictEquals(-0, 0));
 console.log(strictEquals(1, "1"));

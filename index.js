@@ -1,7 +1,2 @@
-const strictEquals = (a, b) => {
-  if (Object.is(a, b)) {
-    return true;
-  } else return false;
-};
-
-strictEquals("water", "oil");
+import { strictEquals } from "./strictEquals.js";
+console.log(strictEquals("water", "oil"));

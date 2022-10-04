@@ -1,0 +1,24 @@
+{
+  "name": "david_cuartas_w2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Champurias/david-cuartas-202209-w2-ch2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Champurias/david-cuartas-202209-w2-ch2/issues"
+  },
+  "homepage": "https://github.com/Champurias/david-cuartas-202209-w2-ch2#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}
